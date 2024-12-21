@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: rgb(243, 223, 206);
+            margin: 2%;
+            border: 20px solid rgb(228, 190, 158);
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+        }
+
+        .profile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .profile img {
+            margin: 30px;
+            width: 150px;
+            height: 150px;
+            border: 3px solid;
+        }
+
+        .profile table {
+            margin: 90px;
+        }
+
+        .profile table th,
+        .profile table td {
+            font-size: 1.5rem;
+        }
+
+        .summary {
+            background-color: rgb(204, 141, 141);
+            padding: 3%;
+        }
+
+        .summary h1 {
+            text-align: center;
+        }
+
+        .summary p {
+            font-size: 1.5rem;
+            text-align: justify;
+        }
+
+        .skills,
+        .projects,
+        .languages {
+            display: flex;
+            justify-content: center;
+            gap: 10%;
+            margin: 50px 0;
+        }
+
+        .skills ul,
+        .projects ul,
+        .languages ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills h1,
+        .projects h1,
+        .languages h1 {
+            font-size: 2.3rem;
+            text-align: center;
+        }
+
+        .skills li,
+        .projects li,
+        .languages li {
+            font-size: 1.2rem;
+            margin: 8px;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(243, 223, 206);
+            margin-top: 50px;
+        }
+
+        .footer p {
+            font-size: 1rem;
+        }
+
+        a {
+            font-size: 1.25rem;
+            color: #000;
+            text-decoration: none;
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 768px) {
+            .profile {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .profile table {
+                margin: 20px;
+            }
+
+            .summary p {
+                font-size: 1.2rem;
+            }
+
+            .skills,
+            .projects,
+            .languages {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .skills h1,
+            .projects h1,
+            .languages h1 {
+                font-size: 2rem;
+            }
+
+            .skills li,
+            .projects li,
+            .languages li {
+                font-size: 1rem;
+            }
+
+            .footer p {
+                font-size: 0.9rem;
+            }
+
+            a {
+                font-size: 1rem;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .profile img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .profile table th,
+            .profile table td {
+                font-size: 1.2rem;
+            }
+
+            .summary p {
+                font-size: 1rem;
+            }
+
+            .skills h1,
+            .projects h1,
+            .languages h1 {
+                font-size: 1.8rem;
+            }
+
+            .skills li,
+            .projects li,
+            .languages li {
+                font-size: 0.9rem;
+            }
+
+            a {
+                font-size: 1rem;
+            }
+
+            .footer p {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>AARYAHI JETHAVA</h1>
+        </div>
+
+        <div class="profile">
+            <img src="./Photo Aaryahi.jpg" alt="Aaryahi Jethava">
+            <table border="1" cellspacing="0" cellpadding="15">
+                <tr>
+                    <th>NAME</th>
+                    <td>Aaryahi Jethava</td>
+                </tr>
+                <tr>
+                    <th>D.O.B</th>
+                    <td>18-09-2008</td>
+                </tr>
+                <tr>
+                    <th>E-MAIL</th>
+                    <td><a href="mailto:aaryahi1827@gmail.com" style="color: blue;">aaryahi1827@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <th>CONTACT</th>
+                    <td><a href="tel:+91-6354528988" style="color: blue;">+91-6354528988</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="summary">
+            <h1>Summary</h1>
+            <p>A passionate learner of new programming languages, with a strong interest in exploring the world of technology. Currently pursuing a diploma in Computer Engineering from Government Polytechnic for Girls, gaining a solid foundation in computer science, software development, and hardware concepts. Constantly exploring different languages and technologies to understand their unique features and applications. Enjoys experimenting with new tools, frameworks, and coding practices, always eager to expand skills.</p>
+        </div>
+
+        <div class="skills">
+            <ul>
+                <h1>SKILLS</h1>
+                <li>C LANGUAGE</li>
+                <li>WEB-DESIGN</li>
+                <li>JAVA SCRIPT</li>
+                <li>PROBLEM SOLVING</li>
+                <li>TEAM WORK</li>
+            </ul>
+
+            <ul>
+                <h1>PROJECTS</h1>
+                <li>COMPLEX CONCEPTS IN C</li>
+                <li>E-COMMERCE WEBSITE</li>
+                <li>RESUME</li>
+                <li>TIC-TAC-TOE</li>
+                <li>CALCULATOR</li>
+                <li>TO-DO LIST</li>
+            </ul>
+
+            <ul>
+                <h1>LANGUAGES</h1>
+                <li>ENGLISH</li>
+                <li>GUJARATI</li>
+                <li>HINDI</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/aaryahi-jethava-a18109342/" target="_blank" style="color: blue;">Visit My LinkedIn Profile</a><br><br>
+            <a href="https://github.com/aaryahi1827/aaryahi1827.git" target="_blank" style="color: blue;">Visit My GitHub Profile</a><br><br>
+            <p>&copy; 2024 Aaryahi Jethava</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
